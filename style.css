@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(7, 252, 7);
+    color: rgb(8, 8, 249);
+    font-family: cambria, cochin, georgia, times;
+}
+
+h1 {
+    font: size 45px;
+    text-align: center;
+    color: rgb(184, 73, 184);
+}
+
+h3 {
+    font: size 24px;
+    text-align: center;
+    color: rgb(126, 29, 81);
+    border-bottom: 2px dotted black;
+}
+
+h5 {
+    font-size: 24px;
+    display: block;
+    color: crimson;
+}
+
+button {
+    background-color: darkorange;
+    color: darkgoldenrod;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: grab;
+    box-shadow: 0 4px 6px blue;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blueviolet;
+    box-shadow: 0 8px red;
+    transform: translateY(-3px);
+}
+
+img {
+    /* max-width:80%;*/
+    height: auto;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px red;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    font: size 26px;
+    background-color: chocolate;
+    color: chartreuse;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    font-size: 45px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: blue wavy underline;
+}
